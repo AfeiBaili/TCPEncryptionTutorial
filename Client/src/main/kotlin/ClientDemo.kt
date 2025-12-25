@@ -12,7 +12,7 @@ import java.util.*
 fun main() {
     val socket = Socket("localhost", 33394)
     val printWriter = PrintWriter(socket.getOutputStream().writer())
-    val cipher = CipherProcessor("iamistoken")
+    val cipher = CipherProcessor("thisatoken")
 
     while (true) {
         print(":")
