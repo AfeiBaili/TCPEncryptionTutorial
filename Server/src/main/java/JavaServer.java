@@ -58,7 +58,6 @@ public class JavaServer {
                 socket.close();
                 tuple.first.close();
                 tuple.second.close();
-                serverThread.interrupt();
             } catch (IOException ignored) {
             }
         });
