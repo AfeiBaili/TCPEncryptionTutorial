@@ -72,5 +72,3 @@ public class JavaClient {
         new JavaClient().connect();
     }
 }
-
-
