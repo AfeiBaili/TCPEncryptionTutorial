@@ -1,1 +1,0 @@
-version = "client-" + rootProject.ext.get("version") as String
